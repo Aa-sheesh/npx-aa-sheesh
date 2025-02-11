@@ -1,7 +1,7 @@
 {
-  "name": "npx aa-sheesh",
-  "version": "1.0.1",
-  "description": "",
+  "name": "aa-sheesh",
+  "version": "1.0.2",
+  "description": "CLI tool to display my business card in the terminal",
   "main": "index.js",
   "bin": {
     "Aa-sheesh": "./index.js"
