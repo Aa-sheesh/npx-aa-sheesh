@@ -29,7 +29,7 @@ Click the "Fork" button on GitHub to create your own  of the repository.
 
 ```bash
 
-Edit
+
 git clone https://github.com/yourusername/aa-sheesh.git
 cd aa-sheesh
 ```
@@ -38,7 +38,7 @@ cd aa-sheesh
 
 ```bash
 
-Edit
+
 git checkout -b feature/your-feature-name
 ```
 4. Implement Your Changes:
@@ -50,14 +50,14 @@ Use clear, descriptive commit messages:
 
 ```bash
 
-Edit
+
 git commit -m "Add [feature/bugfix]: brief description of your changes"
 ```
 6. Push to Your Fork:
 
 ```bash
 
-Edit
+
 git push origin feature/your-feature-name
 ```
 7. Submit a Pull Request:
