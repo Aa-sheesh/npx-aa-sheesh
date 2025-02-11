@@ -1,16 +1,24 @@
 {
-  "name": "npx-aa-sheesh",
+  "name": "aa-sheesh",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "Aa-sheesh": "./index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "type": "module",
+  "keywords": [
+    "cli",
+    "business-card",
+    "terminal",
+    "contact"
+  ],
+  "author": "Aashish Singh",
+  "license": "MIT",
   "dependencies": {
     "boxen": "^8.0.1",
-    "chalk": "^5.4.1"
+    "chalk": "^5.4.1",
+    "inquirer": "^12.4.1",
+    "open": "^10.1.0"
   }
 }
