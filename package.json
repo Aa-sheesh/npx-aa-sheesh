@@ -1,6 +1,6 @@
 {
   "name": "aa-sheesh",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool to display my business card in the terminal",
   "main": "index.js",
   "bin": {
