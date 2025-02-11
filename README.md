@@ -1,6 +1,6 @@
 # npx aa-sheesh
 
-**npx aa-sheesh** is a CLI tool that displays a stylish, interactive business card in your terminal. It showcases your contact details and provides an option for users to open their default email client to contact you directly.
+**aa-sheesh** is a CLI tool that displays a stylish, interactive business card in your terminal. It showcases your contact details and provides an option for users to open their default email client to contact you directly.
 
 ## Features
 
