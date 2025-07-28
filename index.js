@@ -5,17 +5,20 @@ import inquirer from "inquirer";
 import open from "open";
 
 // Customize your details
-const name = chalk.white.bold.red("Aashish Singh");
+const name = chalk.bold.red("Aashish Singh");
 const handle = chalk.cyan("@aashishs4912345@gmail.com");
 // handle.onClick = () => open('https://gmail.com/aashishs4912345');
 const description = chalk.white(
-  "I am a Software Engineer who loves to build web applications and automate things."
+  "Software Engineer passionate about building, automating, and scaling web apps—topped with a touch of AI/ML. Currently building xzeno.dev to make hiring smarter and more efficient."
 );
-const work = `${chalk.red("Full Stack Developer")} || ${chalk.blue("Open Source Contributor")}`;
+const work = `${chalk.red("Full Stack Developer")} || ${chalk.blue("Open Source Contributor")} || ${chalk.green("Applied AI/ML specialist")} || ${chalk.yellow("Polyglot")} || ${chalk.white("Freelancer")}`;
 const education = chalk.white(`B.Tech in ${chalk.yellow("CSE@Manipal")}`);
+
+const blog=chalk.cyan("https://bloggite.vercel.app");
 const github = chalk.cyan("https://github.com/Aa-sheesh");
 const linkedin = chalk.cyan("https://www.linkedin.com/in/aa-sheesh");
 const linktree = chalk.cyan("https://linktr.ee/aa_sheesh");
+const X = chalk.cyan("https://x.com/Aashish64605886");
 const npxCard = chalk.white("npx aa-sheesh");
 
 // Create the card content
@@ -23,12 +26,17 @@ const cardContent = `
                                 ${name} / ${handle}
 
 
-${chalk.white("About Me:")}                 ${description}
+${chalk.bold.white.underline("About Me:")}                 
+${description}
+
+${chalk.bgGray("Bloggite | Tech Blogs")} :   ${blog}
+
 ${chalk.white("Education:")}                ${education}
 ${chalk.white("Work:")}                     ${work}
 
 ${chalk.bgGray("GitHub:")}                   ${github}
 ${chalk.bgBlueBright("LinkedIn:")}                 ${linkedin}
+${chalk.bgWhiteBright.black("X:")}                        ${X}
 ${chalk.bgCyan("Linktree:")}                 ${linktree}
 
 ${chalk.bgRed("Virtual Business Card:")}    ${chalk.italic.dim(npxCard)}
@@ -47,7 +55,7 @@ const options = {
 
 // Print the card to the terminal
 console.log(boxen(cardContent, options));
-console.log(boxen(chalk.blackBright("Ctrl + Click to interact with links"),{float: "center",borderColor:"black"}));
+console.log(boxen(chalk.blackBright("Ctrl + Click to interact with links"), { float: "center", borderColor: "black" }));
 
 // Prompt the user for further action
 inquirer
